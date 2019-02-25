@@ -195,10 +195,10 @@ Step 6: Transferring boot1 to your Switch
 
 4. Click **"Select image",** browse for **"BOOT1.BIN"** which was generated within the **NX-X.X.X** folder you created earlier with ChoiDujour
 
-    * Etcher may say that **BOOT0.BIN** is not a bootable image. **Select "Continue" anyways.**
+    * Etcher may say that **BOOT1.BIN** is not a bootable image. **Select "Continue" anyways.**
 
 5. Make sure the target is **"Linux UMS USB Device"** if it is not already chosen
-6. **"BOOT0.BIN" MUST SHOW AS 524.29KB. "Linux UMS USB Device" MUST SHOW AS 4.19MB.** If any of the sizes are incorrect, **STOP! You cannot continue!** Repeat steps 1.11-1.13, 4.1-4.4, and 5.1-5.7.
+6. **"BOOT1.BIN" MUST SHOW AS 524.29KB. "Linux UMS USB Device" MUST SHOW AS 4.19MB.** If any of the sizes are incorrect, **STOP! You cannot continue!** Repeat steps 1.11-1.13, 4.1-4.4, and 5.1-5.7.
 
 .. image:: https://puu.sh/C676E/3dc60b58bb.png
 
@@ -217,7 +217,7 @@ Step 7: Transferring BCPKG2 images to your Switch
     
     
 1. Put your Switch into RCM and send the **"memloader.bin"** payload you downloaded earlier
-2. On your Switch, using volume buttons, navigate to **"ums_boot1.ini"** and select it with power
+2. On your Switch, using volume buttons, navigate to **"ums_emmc.ini"** and select it with power
 3. The disk should now connect to your PC. In Device Manager, make sure you can see **"LINUX UMS DISK 0"** under **"Disk Drives"**
 
     * If you see "USB Download Gadget", right click the entry and choose Uninstall.
